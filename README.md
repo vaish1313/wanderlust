@@ -25,11 +25,16 @@ Live Demo
 
 Folder Structure
 
-/models        # Mongoose schemas
-/routes        # Express route handlers
-/views         # EJS templates 
-/public        # Static assets (CSS/JS/images)
-/utils         # Helper functions and middleware
+wanderlust/
+├── controllers/      # Route handlers and logic for property/review/user actions
+├── models/           # Mongoose schemas for Users, Properties, Reviews
+├── node_modules/     # Installed dependencies
+├── public/           # Static assets (CSS, images, client-side JS)
+├── routes/           # Express.js routes (modularized per feature)
+├── utils/            # Middleware, helper functions (like error handling)
+├── views/            # Server-side rendered templates (EJS)
+├── .env              # Environment variables (not tracked)
+├── app.js / index.js # Main Express app
 
 What I Learned
 
