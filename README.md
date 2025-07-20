@@ -23,19 +23,6 @@ Live Demo
 👉 [Try Wanderlust](https://wanderlust-cv7g.onrender.com/listings)  
 👉 [GitHub Repo](https://github.com/vaish1313/wanderlust)
 
-Folder Structure
-
-wanderlust/
-├── controllers/      # Route handlers and logic for property/review/user actions
-├── models/           # Mongoose schemas for Users, Properties, Reviews
-├── node_modules/     # Installed dependencies
-├── public/           # Static assets (CSS, images, client-side JS)
-├── routes/           # Express.js routes (modularized per feature)
-├── utils/            # Middleware, helper functions (like error handling)
-├── views/            # Server-side rendered templates (EJS)
-├── .env              # Environment variables (not tracked)
-├── app.js / index.js # Main Express app
-
 What I Learned
 
 - Creating a RESTful API for full CRUD functionality
@@ -50,6 +37,19 @@ Future Improvements
 - Upload images with Cloudinary or Multer
 - Add real-time booking notifications
 
+Folder Structure
+```bash
+wanderlust/
+├── controllers/     # Route handlers for properties, reviews, and users
+├── models/          # Mongoose schemas (User, Property, Review)
+├── node_modules/    # Project dependencies
+├── public/          # Static assets (CSS, JS, images)
+├── routes/          # Express routes (modularized per feature)
+├── utils/           # Custom middleware and helper functions
+├── views/           # EJS templates for server-side rendering
+├── .env             # Environment variables (excluded from repo)
+├── index.js         # Main Express app entry point
+```
 Installation
 
 ```bash
